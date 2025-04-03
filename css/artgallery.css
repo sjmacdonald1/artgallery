@@ -1,1 +1,24 @@
-
+.jumbotron {
+	background: url(../images/jumbotron.png) no-repeat center top;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 30em;
+}
+h1, header p {
+	text-shadow: 1px 1px 0 #fff;
+	font-weight: 900;
+}
+hr {
+	width: 80%;
+	text-align: center;
+	border-color: #bbb
+}
+footer {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
